@@ -1,0 +1,306 @@
+[
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "category": "Fruits",
+    "tagline": "Sun-ripened, hand-picked and impossible to resist.",
+    "description": "Picked at dawn and on a stall by eight. Our growers pick strawberries fully red and never chill them overnight, which is why they taste like actual strawberries.",
+    "season": ["Spring", "Summer"],
+    "peak": "June – July",
+    "markets": [1, 5, 10, 12],
+    "image": "https://i.pinimg.com/736x/51/dd/a7/51dda707f80f532b28f3e50847fcb2c3.jpg",
+    "color": "#E14B32",
+    "origin": "River Valley farms, 12 miles from the city",
+    "tips": [
+      "Store unwashed in a single layer, covered loosely.",
+      "Bring to room temperature before eating — cold kills the aroma.",
+      "Hull them just before serving, never before."
+    ],
+    "pairs": ["Wildflower Honey", "Farm Cheese", "Basil"]
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "category": "Vegetables",
+    "tagline": "Creamy, nutrient-rich and naturally versatile.",
+    "description": "Grown on sheltered hillside groves and picked to order. Ours ripen on the tree longer than supermarket fruit, which is where the flavour comes from.",
+    "season": ["Spring", "Summer"],
+    "peak": "March – August",
+    "markets": [4, 11],
+    "image": "https://i.pinimg.com/736x/bd/fb/17/bdfb17d73651bf296ef65f918647255a.jpg",
+    "color": "#5FA83C",
+    "origin": "Cedar Hill groves",
+    "tips": [
+      "Ripen in a paper bag with a banana; refrigerate once soft.",
+      "Leave the stone in the unused half to slow browning.",
+      "Choose fruit that yields gently at the neck, not the base."
+    ],
+    "pairs": ["Tomatoes", "Basil", "Free-Range Eggs"]
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "category": "Vegetables",
+    "tagline": "Heritage varieties grown for flavour, not freight.",
+    "description": "Thirty-one varieties across our markets, from green zebra to oxheart. Grown in soil, picked ripe, sold within twenty-four hours.",
+    "season": ["Summer", "Autumn"],
+    "peak": "July – September",
+    "markets": [1, 3, 6, 8, 12],
+    "image": "https://i.pinimg.com/736x/35/87/c4/3587c42c225aaa4fd0fb941763f64732.jpg",
+    "color": "#E14B32",
+    "origin": "Willow Brook glasshouses & field growers",
+    "tips": [
+      "Never refrigerate — below 12°C the aroma compounds die.",
+      "Store stem-side down on the counter.",
+      "Salt ten minutes before serving to draw out sweetness."
+    ],
+    "pairs": ["Basil", "Farm Cheese", "Sourdough"]
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "category": "Vegetables",
+    "tagline": "Sweet, crisp and pulled the same morning.",
+    "description": "Sandy-loam carrots with the tops still on. Until you have eaten a carrot pulled that morning you have not really eaten a carrot.",
+    "season": ["Autumn", "Winter"],
+    "peak": "October – February",
+    "markets": [1, 2, 6, 10],
+    "image": "https://i.pinimg.com/736x/c2/30/4b/c2304b9fb0fb9cf27813f37c9d806cec.jpg",
+    "color": "#F2A03D",
+    "origin": "Sunfield sandy loam",
+    "tips": [
+      "Twist the tops off on day one — they drain the root.",
+      "Store in a damp cloth in the crisper drawer.",
+      "Roast whole with the skins on for the sweetest result."
+    ],
+    "pairs": ["Basil", "Wildflower Honey", "Free-Range Eggs"]
+  },
+  {
+    "id": "blueberry",
+    "name": "Blueberry",
+    "category": "Fruits",
+    "tagline": "Small, deep and dusted with natural bloom.",
+    "description": "High-bush berries from the lakeside beds, hand-rolled into punnets. That pale powder on the skin is the bloom — it means fresh.",
+    "season": ["Summer"],
+    "peak": "July – August",
+    "markets": [2, 5, 8, 10],
+    "image": "https://i.pinimg.com/736x/55/22/39/552239b8703b0c5b63bd0e9c5167e655.jpg",
+    "color": "#5C6BC0",
+    "origin": "Lakeside berry beds",
+    "tips": [
+      "Do not wash until the moment you eat them.",
+      "Freeze in a single layer on a tray, then bag.",
+      "A squeeze of lemon makes them taste brighter."
+    ],
+    "pairs": ["Wildflower Honey", "Farm Cheese", "Sourdough"]
+  },
+  {
+    "id": "peach",
+    "name": "Peach",
+    "category": "Fruits",
+    "tagline": "Tree-ripened, freestone, and worth the sticky chin.",
+    "description": "Orchard Lane picks peaches at the point where they leave the branch with a twist, not a tug. Everything else follows from that.",
+    "season": ["Summer"],
+    "peak": "August",
+    "markets": [3, 5, 9],
+    "image": "https://i.pinimg.com/736x/5c/29/98/5c29981a4e39aa1ad27823c2130d5432.jpg",
+    "color": "#F2A03D",
+    "origin": "Orchard Lane, third-generation growers",
+    "tips": [
+      "Ripen in a closed bag, then refrigerate only if needed.",
+      "Skin slips easily once blanched for 30 seconds.",
+      "Grill cut-side down with honey and thyme."
+    ],
+    "pairs": ["Wildflower Honey", "Farm Cheese", "Basil"]
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "category": "Vegetables",
+    "tagline": "Tight heads, sweet stems, cut cold.",
+    "description": "Cut in the cool of the early morning and iced within the hour. The stalk is the sweetest part — never throw it away.",
+    "season": ["Autumn", "Winter"],
+    "peak": "October – March",
+    "markets": [4, 6, 11],
+    "image": "https://i.pinimg.com/736x/25/9e/b6/259eb63c7c324cdb62590d403e5bfd36.jpg",
+    "color": "#3F7D2B",
+    "origin": "Northgate urban farms",
+    "tips": [
+      "Store stem-down in a glass of water like flowers.",
+      "Roast at high heat — boiling gives you nothing.",
+      "Peel and slice the stalk for slaws and stir-fries."
+    ],
+    "pairs": ["Farm Cheese", "Free-Range Eggs", "Basil"]
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "category": "Vegetables",
+    "tagline": "Leaf, not baby leaf. Cut this morning.",
+    "description": "Proper bunched spinach with a stem and an opinion. Washed twice, spun once, on the table within six hours of cutting.",
+    "season": ["Spring", "Winter"],
+    "peak": "April – May",
+    "markets": [1, 2, 4, 7, 10],
+    "image": "https://i.pinimg.com/736x/c5/11/96/c51196b066486cccbd967388e224cec6.jpg",
+    "color": "#3F7D2B",
+    "origin": "Riverside & Cedar Hill beds",
+    "tips": [
+      "Wilt in a dry pan before dressing to avoid a watery plate.",
+      "Store rolled in a dry towel inside a bag.",
+      "Freeze blanched portions for winter cooking."
+    ],
+    "pairs": ["Farm Cheese", "Free-Range Eggs", "Strawberry"]
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "category": "Vegetables",
+    "tagline": "Field-grown, dense-fleshed, built for roasting.",
+    "description": "Not the carving kind. These are dense, dry-fleshed varieties bred for the plate: Crown Prince, Kabocha, Rouge Vif.",
+    "season": ["Autumn"],
+    "peak": "October – November",
+    "markets": [7, 9],
+    "image": "https://i.pinimg.com/1200x/36/e7/86/36e78609c5f9b006658beaec2d67855c.jpg",
+    "color": "#E1701E",
+    "origin": "Maple Creek fields",
+    "tips": [
+      "Cure in a warm room for a week before cooking.",
+      "Roast in big wedges, skin on, then scoop.",
+      "The seeds toast beautifully with salt and oil."
+    ],
+    "pairs": ["Wildflower Honey", "Farm Cheese", "Basil"]
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "Fruits",
+    "tagline": "Heritage orchards, sixty varieties, no wax.",
+    "description": "Unwaxed heritage apples from orchards that pre-date the motorway. Ask for a taste — most growers will cut you a wedge.",
+    "season": ["Autumn", "Winter"],
+    "peak": "September – December",
+    "markets": [7, 9],
+    "image": "https://i.pinimg.com/736x/c3/59/be/c359beb960c838eb2fc6a02f1959db45.jpg",
+    "color": "#B23A63",
+    "origin": "Orchard Lane & Maple Creek",
+    "tips": [
+      "Store cold, away from other produce — apples emit ethylene.",
+      "Pair by texture: sharp Cox, sweet Gala, aromatic Egremont Russet.",
+      "Cook with two varieties for depth."
+    ],
+    "pairs": ["Farm Cheese", "Wildflower Honey", "Sourdough"]
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "category": "Herbs",
+    "tagline": "Cut to order, sold by the armful.",
+    "description": "Genovese, purple and Thai basil, cut to order so the leaves never bruise. Sold standing in water, which is how herbs should travel.",
+    "season": ["Spring", "Summer"],
+    "peak": "June – September",
+    "markets": [2, 3, 6, 8, 11],
+    "image": "https://i.pinimg.com/736x/89/c1/3f/89c13f7365652adce35aa7beb6e2707b.jpg",
+    "color": "#3F7D2B",
+    "origin": "Willow Brook herb houses",
+    "tips": [
+      "Treat like flowers: trim stems, stand in water, out of the fridge.",
+      "Tear, do not chop — blades bruise the leaves.",
+      "Blanch and freeze in oil for winter."
+    ],
+    "pairs": ["Tomatoes", "Farm Cheese", "Sourdough"]
+  },
+  {
+    "id": "honey",
+    "name": "Wildflower Honey",
+    "category": "Honey",
+    "tagline": "Raw, unfiltered, and from hives you can visit.",
+    "description": "Unpasteurised honey from hives within nine miles of the market square. It will crystallise — that is the proof it has not been heated.",
+    "season": ["Summer", "Autumn"],
+    "peak": "July – October",
+    "markets": [2, 4, 5, 7, 9, 12],
+    "image": "https://i.pinimg.com/736x/41/45/84/4145840ed2f317fdcbb5c1a33191e7ce.jpg",
+    "color": "#F2A03D",
+    "origin": "Riverside & Cedar Hill apiaries",
+    "tips": [
+      "Never microwave — stand the jar in warm water instead.",
+      "Crystallised honey is fine; it is not spoilt.",
+      "Buy by taste: spring honey is floral, autumn is dark and malty."
+    ],
+    "pairs": ["Farm Cheese", "Sourdough", "Peach"]
+  },
+  {
+    "id": "sourdough",
+    "name": "Sourdough",
+    "category": "Baked Goods",
+    "tagline": "Thirty-six hour ferment, baked before six.",
+    "description": "Stone-milled regional wheat, wild yeast, a thirty-six hour cold ferment and a bake that starts at four in the morning.",
+    "season": ["Spring", "Summer", "Autumn", "Winter"],
+    "peak": "All year",
+    "markets": [1, 3, 5, 8, 10, 12],
+    "image": "https://i.pinimg.com/236x/20/b1/b1/20b1b1c0418d85faf115835cb770465e.jpg",
+    "color": "#C08A4E",
+    "origin": "Bloomfield baker's row",
+    "tips": [
+      "Store cut-side down on a board, never in plastic.",
+      "Refresh a day-old loaf in a hot oven for six minutes.",
+      "Freeze sliced — toast straight from frozen."
+    ],
+    "pairs": ["Farm Cheese", "Tomatoes", "Wildflower Honey"]
+  },
+  {
+    "id": "cheese",
+    "name": "Farm Cheese",
+    "category": "Dairy",
+    "tagline": "Raw milk, single herd, aged on the farm.",
+    "description": "Made within twenty miles of the stall by four small dairies. Raw-milk clothbound cheddar, soft ripened rounds and fresh curd.",
+    "season": ["Spring", "Summer", "Autumn", "Winter"],
+    "peak": "All year",
+    "markets": [3, 7, 8, 11, 12],
+    "image": "https://i.pinimg.com/736x/c4/7a/73/c47a734bd8ed0c1073702df9d454117c.jpg",
+    "color": "#E8C46A",
+    "origin": "Four dairies, all within 20 miles",
+    "tips": [
+      "Take cheese out of the fridge an hour before serving.",
+      "Wrap in wax paper, not cling film.",
+      "Ask the maker what the herd was grazing on."
+    ],
+    "pairs": ["Sourdough", "Wildflower Honey", "Apple"]
+  },
+  {
+    "id": "eggs",
+    "name": "Free-Range Eggs",
+    "category": "Organic Products",
+    "tagline": "Deep yolks from hens that see daylight.",
+    "description": "Pasture-raised, collected by hand and graded on the farm. The yolk colour is a direct readout of what the hens have been eating.",
+    "season": ["Spring", "Summer", "Autumn", "Winter"],
+    "peak": "All year",
+    "markets": [4, 6, 9, 11],
+    "image": "https://i.pinimg.com/736x/5c/83/b3/5c83b3c609b0006d6cf1de6c8744200b.jpg",
+    "color": "#E8C46A",
+    "origin": "Sunfield & Orchard Lane flocks",
+    "tips": [
+      "Store pointed-end down, in the box, not the door.",
+      "An egg that floats is old; one that sinks is fresh.",
+      "Room temperature eggs whip to greater volume."
+    ],
+    "pairs": ["Basil", "Spinach", "Sourdough"]
+  },
+  {
+    "id": "citrus",
+    "name": "Citrus",
+    "category": "Fruits",
+    "tagline": "Thin-skinned, heavy for its size, ridiculously juicy.",
+    "description": "Lemons, blood oranges and satsumas from the southern growers who send one van north each week in winter.",
+    "season": ["Winter"],
+    "peak": "December – February",
+    "markets": [1, 3, 10],
+    "image": "https://i.pinimg.com/736x/5d/bb/41/5dbb41089130ff93cf4c7177bb3ef355.jpg",
+    "color": "#F2A03D",
+    "origin": "Southern partner growers",
+    "tips": [
+      "Choose fruit that feels heavy for its size.",
+      "Roll before juicing to double the yield.",
+      "Zest before you cut — always."
+    ],
+    "pairs": ["Wildflower Honey", "Basil", "Farm Cheese"]
+  }
+]

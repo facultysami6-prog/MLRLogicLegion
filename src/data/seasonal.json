@@ -1,0 +1,42 @@
+[
+  {
+    "id": "spring",
+    "name": "Spring",
+    "months": "March – May",
+    "note": "The first green. Tender leaves, forced rhubarb and the earliest berries of the year.",
+    "accent": "#8FC44A",
+    "tint": "#EDF5DC",
+    "image": "https://images.pexels.com/photos/33554298/pexels-photo-33554298.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "items": ["spinach", "strawberry", "basil", "avocado"]
+  },
+  {
+    "id": "summer",
+    "name": "Summer",
+    "months": "June – August",
+    "note": "Long days, warm soil. Everything ripens at once and the market doubles in size.",
+    "accent": "#F2A03D",
+    "tint": "#FCEED9",
+    "image": "https://images.pexels.com/photos/13196329/pexels-photo-13196329.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "items": ["tomato", "peach", "blueberry", "basil", "honey"]
+  },
+  {
+    "id": "autumn",
+    "name": "Autumn",
+    "months": "September – November",
+    "note": "Squash, orchard fruit and the first frost-sweetened roots of the season.",
+    "accent": "#E14B32",
+    "tint": "#FBE5DE",
+    "image": "https://images.pexels.com/photos/6280478/pexels-photo-6280478.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "items": ["pumpkin", "apple", "broccoli", "carrot"]
+  },
+  {
+    "id": "winter",
+    "name": "Winter",
+    "months": "December – February",
+    "note": "Slow, dense, sweet. Cold weather turns starch into sugar and roots into candy.",
+    "accent": "#5C7FBF",
+    "tint": "#E6ECF8",
+    "image": "https://images.pexels.com/photos/3252766/pexels-photo-3252766.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "items": ["citrus", "carrot", "broccoli", "spinach"]
+  }
+]

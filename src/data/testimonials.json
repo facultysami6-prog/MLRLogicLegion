@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Amara Osei",
+    "role": "Home cook",
+    "location": "Riverside, Portland",
+    "initials": "AO",
+    "tint": "#E14B32",
+    "rating": 5,
+    "quote": "FreshFind makes it so easy to discover local markets. I moved here in March and by April I knew exactly which stall had the best asparagus."
+  },
+  {
+    "id": 2,
+    "name": "Daniel Reyes",
+    "role": "Chef, Field & Fire",
+    "location": "Downtown, Portland",
+    "initials": "DR",
+    "tint": "#3F7D2B",
+    "rating": 5,
+    "quote": "I plan the whole week's menu from the directory. The open-now filter alone saves me two phone calls every single morning."
+  },
+  {
+    "id": 3,
+    "name": "Hannah Whitfield",
+    "role": "Market gardener",
+    "location": "Cedar Hill, Portland",
+    "initials": "HW",
+    "tint": "#B23A63",
+    "rating": 5,
+    "quote": "Our Sunday stall tripled its footfall after we were listed. People arrive already knowing what's in season and what they want to cook."
+  },
+  {
+    "id": 4,
+    "name": "Tomas Lindqvist",
+    "role": "Cyclist & food writer",
+    "location": "Lakeside, Portland",
+    "initials": "TL",
+    "tint": "#F2A03D",
+    "rating": 4,
+    "quote": "The proximity sorting is brilliant. I ride out on Saturday morning with a saved list and come home with three full panniers."
+  },
+  {
+    "id": 5,
+    "name": "Priya Raman",
+    "role": "Nutritionist",
+    "location": "Northgate, Portland",
+    "initials": "PR",
+    "tint": "#5C7FBF",
+    "rating": 5,
+    "quote": "I send clients to FreshFind instead of a supermarket list. The produce guide explains seasonality better than I can in fifteen minutes."
+  }
+]

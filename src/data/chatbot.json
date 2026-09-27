@@ -1,0 +1,200 @@
+{
+  "botName": "Chatbot",
+  "greeting": "Hi there 👋 I'm the FreshFind Chatbot. What are you looking for today?",
+  "greetingSub": "I can find markets, tell you what's in season and help you save your favourites — ask me anything about FreshFind.",
+  "quickReplies": [
+    "Find markets near me",
+    "What's in season?",
+    "Show vegetable markets",
+    "Show fruit markets",
+    "Market timings",
+    "How do I save a market?"
+  ],
+  "fallback": {
+    "response": "I'm the FreshFind assistant, so I can only help with things on this site — markets, seasonal produce, opening times, the produce guide or your saved list. Try one of these:",
+    "suggestions": [
+      "Find markets near me",
+      "What's in season?",
+      "Show vegetable markets",
+      "Market timings"
+    ]
+  },
+  "intents": [
+    {
+      "id": "greeting",
+      "keywords": ["hi", "hey", "hello", "good morning", "good afternoon", "good evening", "yo", "sup", "hiya", "howdy", "salam", "assalam"],
+      "response": "Hello! Ready to find something fresh? I can point you to open markets, seasonal produce or help you build a saved list.",
+      "suggestions": ["Find markets near me", "What's in season?", "Market timings"]
+    },
+    {
+      "id": "how-are-you",
+      "keywords": ["how are you", "how's it going", "whats up", "how are things"],
+      "response": "Doing great, thanks for asking! I'm here whenever you need help finding a market or seeing what's fresh this week.",
+      "suggestions": ["Find markets near me", "What's in season?", "Market timings"]
+    },
+    {
+      "id": "capabilities",
+      "keywords": ["what can you do", "help me", "who are you what do you do", "what do you do", "options", "menu", "commands"],
+      "response": "I'm the FreshFind assistant. I can help you find and filter markets, check what's open right now, see what's in season, browse the produce guide, and manage your saved finds.",
+      "links": [
+        { "label": "Find a Market", "href": "#/find" },
+        { "label": "Produce Guide", "href": "#/produce" }
+      ],
+      "suggestions": ["Find markets near me", "What's in season?", "How do I save a market?"]
+    },
+    {
+      "id": "find-markets",
+      "keywords": [
+        "find market",
+        "markets near",
+        "near me",
+        "nearby",
+        "where can i",
+        "find a market",
+        "market",
+        "browse markets",
+        "directory"
+      ],
+      "response": "There are 12 markets on FreshFind right now. Tell me your area or use 'Find a Market' to filter by day, place and produce. I can also sort by distance if you share your location.",
+      "bullets": [
+        "Filter by neighbourhood, day of the week or produce type",
+        "Sort alphabetically, by next open day, or by proximity"
+      ],
+      "links": [
+        { "label": "Find a Market", "href": "#/find" },
+        { "label": "Browse full directory", "href": "#/directory" }
+      ],
+      "suggestions": ["Show vegetable markets", "Show fruit markets", "Use my location"]
+    },
+    {
+      "id": "geolocation",
+      "keywords": ["use my location", "my location", "gps", "geolocation", "closest", "nearest", "proximity"],
+      "response": "Your browser can share your location and FreshFind will sort markets by distance. Nothing is stored and nothing leaves your device — it is used only to calculate how far away each market is.",
+      "links": [{ "label": "Open proximity search", "href": "#/find" }],
+      "suggestions": ["Find markets near me", "Market timings"]
+    },
+    {
+      "id": "season",
+      "keywords": ["season", "seasonal", "in season", "this month", "ripe", "what's fresh", "now"],
+      "response": "Every season has a shortlist. Here is what FreshFind growers are picking right now, and where to find it.",
+      "links": [
+        { "label": "See Seasonal Picks", "href": "#/seasonal" },
+        { "label": "Open Produce Guide", "href": "#/produce" }
+      ],
+      "suggestions": ["Show vegetable markets", "Show fruit markets", "Find markets near me"]
+    },
+    {
+      "id": "vegetables",
+      "keywords": ["vegetable", "veg", "greens", "broccoli", "carrot", "spinach", "pumpkin", "tomato", "avocado", "leafy"],
+      "response": "Cedar Hill Organic, Northgate Growers Collective and Sunfield Community Market are your best bets for vegetables — brassicas, roots and leafy greens picked within 24 hours.",
+      "bullets": [
+        "Cedar Hill Organic Market — certified organic only",
+        "Northgate Growers Collective — open Thursday & Friday evenings",
+        "Sunfield Community Market — opens 6:30am, Mon / Wed / Fri"
+      ],
+      "links": [
+        { "label": "Cedar Hill Organic Market", "href": "#/market/4" },
+        { "label": "Vegetables in the Produce Guide", "href": "#/produce?category=Vegetables" }
+      ],
+      "suggestions": ["Show fruit markets", "Market timings", "What's in season?"]
+    },
+    {
+      "id": "fruits",
+      "keywords": ["fruit", "strawberry", "strawberries", "berry", "berries", "blueberry", "peach", "apple", "citrus", "orange"],
+      "response": "For fruit, head to Orchard Lane Producers, Lakeside Harvest Market or Harbourfront Fresh. Berries peak in high summer, orchard fruit from September.",
+      "bullets": [
+        "Lakeside Harvest — biggest berry selection in the valley",
+        "Orchard Lane Producers — 60 heritage apple varieties",
+        "Harbourfront Fresh — stone fruit and preserves, Sundays"
+      ],
+      "links": [
+        { "label": "Orchard Lane Producers", "href": "#/market/9" },
+        { "label": "Fruits in the Produce Guide", "href": "#/produce?category=Fruits" }
+      ],
+      "suggestions": ["Show vegetable markets", "What's in season?", "Find markets near me"]
+    },
+    {
+      "id": "timings",
+      "keywords": ["timing", "timings", "time", "open", "opening", "close", "closing", "hours", "when", "schedule", "today"],
+      "response": "Market hours vary a lot — some open at 6:30am, Northgate runs until 7pm. Live open / closed status is calculated from your device clock on every market card and detail page.",
+      "bullets": [
+        "Earliest: Sunfield Community Market, 6:30am",
+        "Latest: Northgate Growers Collective, until 7pm",
+        "Most weekends: 8:00am – 4:00pm"
+      ],
+      "links": [
+        { "label": "See what's open now", "href": "#/find" },
+        { "label": "Market Directory", "href": "#/directory" }
+      ],
+      "suggestions": ["Find markets near me", "Show vegetable markets"]
+    },
+    {
+      "id": "open-now",
+      "keywords": ["open now", "is it open", "open today", "open right now", "opening soon"],
+      "response": "The 'Fresh Finds Happening Now' section recalculates every minute using your local time. Green means open, amber means opening within the hour.",
+      "links": [{ "label": "See open markets", "href": "#/find" }],
+      "suggestions": ["Market timings", "Find markets near me"]
+    },
+    {
+      "id": "produce-guide",
+      "keywords": ["produce", "guide", "herb", "basil", "honey", "cheese", "bread", "dairy", "bakery", "organic", "eggs", "sourdough"],
+      "response": "The Produce Guide covers eight categories with season, peak window, storage tips and the exact markets stocking each item.",
+      "bullets": [
+        "Fruits · Vegetables · Herbs · Dairy",
+        "Baked Goods · Honey · Organic Products · Other"
+      ],
+      "links": [
+        { "label": "Open Produce Guide", "href": "#/produce" },
+        { "label": "Fresh Picks on the home page", "href": "#/" }
+      ],
+      "suggestions": ["What's in season?", "Show vegetable markets"]
+    },
+    {
+      "id": "bookmarks",
+      "keywords": ["save", "saved", "bookmark", "favourite", "favorite", "note", "notes", "export", "share", "my finds", "wishlist"],
+      "response": "Tap the heart on any market or produce card to save it. Everything lives in My Fresh Finds, where you can add a personal note, share a recommendation or export the whole list as a file.",
+      "bullets": [
+        "Saved items persist in your browser storage",
+        "Add a note like 'ask Elena about the purple basil'",
+        "Export your list as .txt or share it directly"
+      ],
+      "links": [
+        { "label": "Open My Fresh Finds", "href": "#/saved" },
+        { "label": "Browse markets to save", "href": "#/directory" }
+      ],
+      "suggestions": ["Find markets near me", "What's in season?"]
+    },
+    {
+      "id": "about",
+      "keywords": ["about", "who are you", "mission", "team", "story", "why freshfind"],
+      "response": "FreshFind exists because good food is usually grown closer than you think. We map the markets, the seasons and the growers so the shortest possible supply chain is also the easiest one to use.",
+      "links": [
+        { "label": "Our story", "href": "#/about" },
+        { "label": "Meet the growers", "href": "#/about" }
+      ],
+      "suggestions": ["Find markets near me", "What's in season?"]
+    },
+    {
+      "id": "contact",
+      "keywords": ["contact", "email", "phone", "call", "address", "help", "support", "talk to"],
+      "response": "You can reach the FreshFind team at hello@freshfind.market or on +1 (503) 555-0142. Our office sits above the Bloomfield baker's row — the smell gives it away.",
+      "links": [
+        { "label": "Contact page", "href": "#/contact" },
+        { "label": "Find a Market", "href": "#/find" }
+      ],
+      "suggestions": ["Find markets near me", "Market timings"]
+    },
+    {
+      "id": "thanks",
+      "keywords": ["thanks", "thank you", "cheers", "ta", "appreciate"],
+      "response": "Anytime. Go find something fresh — and bring a bag.",
+      "suggestions": ["Find markets near me", "What's in season?"]
+    },
+    {
+      "id": "goodbye",
+      "keywords": ["bye", "goodbye", "see you", "later", "gtg"],
+      "response": "See you soon! Come back anytime you need a market, a season check or a recommendation.",
+      "suggestions": ["Find markets near me", "What's in season?"]
+    }
+  ]
+}

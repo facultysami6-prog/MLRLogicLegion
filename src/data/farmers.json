@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Elena Marsh",
+    "farm": "Cedar Hill Organics",
+    "market": "Cedar Hill Organic Market",
+    "marketId": 4,
+    "specialty": "Organic vegetables",
+    "years": 22,
+    "initials": "EM",
+    "tint": "#3F7D2B",
+    "image": "https://i.pinimg.com/736x/d2/fb/de/d2fbde5c2600469a0e5e35a774008c31.jpg",
+    "quote": "We do not grow for the shelf. We grow for the Tuesday it is eaten."
+  },
+  {
+    "id": 2,
+    "name": "Joseph Abara",
+    "farm": "Riverbend Berry Co.",
+    "market": "Lakeside Harvest Market",
+    "marketId": 10,
+    "specialty": "Seasonal berries",
+    "years": 14,
+    "initials": "JA",
+    "tint": "#B23A63",
+    "image": "https://i.pinimg.com/736x/98/75/8a/98758a2adf1b245c615703a27ba7bea4.jpg",
+    "quote": "A strawberry picked cold at seven tastes like a different fruit by four."
+  },
+  {
+    "id": 3,
+    "name": "Marguerite Vaillant",
+    "farm": "Willow Apiary",
+    "market": "Willow Brook Market",
+    "marketId": 8,
+    "specialty": "Local honey",
+    "years": 31,
+    "initials": "MV",
+    "tint": "#F2A03D",
+    "image": "https://i.pinimg.com/736x/fd/0b/24/fd0b246a32348fcb8826fbc5822d6dc9.jpg",
+    "quote": "If it never crystallises, someone has heated it. Ask them why."
+  },
+  {
+    "id": 4,
+    "name": "Sam Okonjo",
+    "farm": "Northgate Greens",
+    "market": "Northgate Growers Collective",
+    "marketId": 11,
+    "specialty": "Fresh herbs",
+    "years": 9,
+    "initials": "SO",
+    "tint": "#5FA83C",
+    "image": "https://i.pinimg.com/736x/b6/aa/77/b6aa77fe46a543ca8694d6d252dca9fe.jpg",
+    "quote": "Herbs travel badly. That is why we cut them after you order."
+  },
+  {
+    "id": 5,
+    "name": "Ruth Callaghan",
+    "farm": "Bloomfield Mill & Bake",
+    "market": "Bloomfield Artisan Market",
+    "marketId": 12,
+    "specialty": "Slow-ferment bread",
+    "years": 18,
+    "initials": "RC",
+    "tint": "#C08A4E",
+    "image": "https://i.pinimg.com/736x/3c/28/23/3c28239e4d8fac80ee0da17c8a6a6e5f.jpg",
+    "quote": "Thirty-six hours is the minimum. Anything faster is just bread-shaped air."
+  },
+  {
+    "id": 6,
+    "name": "Idris Haddad",
+    "farm": "Orchard Lane Fruit",
+    "market": "Orchard Lane Producers",
+    "marketId": 9,
+    "specialty": "Heritage orchard fruit",
+    "years": 27,
+    "initials": "IH",
+    "tint": "#E14B32",
+    "image": "https://i.pinimg.com/736x/ce/95/20/ce9520c453ff4880aced38b825edc201.jpg",
+    "quote": "My grandfather planted half of these trees. I am just the one who picks them."
+  }
+]
